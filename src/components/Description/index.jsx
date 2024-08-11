@@ -14,7 +14,7 @@ export default function Index() {
               our paths crossed in 2022 at {" "}
                 <span className={styles.textDeco}>Cyberjaya </span>
               </span> </AnimatedText>
-            <AnimatedText>And now you’re here to </AnimatedText>
+            <AnimatedText>And now you`re here to </AnimatedText>
             <AnimatedText>  <span style={{ marginLeft: "50px" }}>
                 {" "}
                 witness us <span className={styles.textDeco}>tying the knot ♡</span>{" "}
