@@ -4,8 +4,10 @@ import styles from './page.module.css'
 import Intro from '../components/Intro';
 import Description from '../components/Description';
 import Projects from '../components/Projects';
+import CountdownTimer from '../components/Timer';
 
 export default function Home() {
+  const targetDate = "Feb 22, 2025 09:00:00";
 
   useEffect( () => {
     (
@@ -22,7 +24,8 @@ export default function Home() {
         <div className={styles.spacer}> 
         <Description />
         </div>
-        {/* <Projects /> */}
+        <CountdownTimer targetDate={targetDate} />
+ 
       </main>
   )
 }

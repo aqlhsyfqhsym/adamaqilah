@@ -18,6 +18,11 @@
     object-fit: contain;
 }
 
+.backgroundImage img{
+  display: none;
+}
+
+
 .intro{
     display: flex;
     justify-content: center;
@@ -31,6 +36,9 @@
     z-index: 3;
     text-align: center;
     white-space: nowrap;
+    font-style: italic;
+  font-family: serif;
+
 }
 
 .introImage{
@@ -43,4 +51,19 @@
 .introImage img{
     object-fit: cover;
     object-position: top;
+}
+
+@media screen and (max-width :768px) {
+
+    .backgroundImage img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .backgroundImage video{
+        display: none;
+      }
+    
 }

@@ -16,7 +16,6 @@ export default function Index() {
               </span> </AnimatedText>
             <AnimatedText>And now you&rsquo;re here to </AnimatedText>
             <AnimatedText>  <span style={{ marginLeft: "50px" }}>
-                {" "}
                 witness us <span className={styles.textDeco}>tying the knot ♡</span>{" "}
               </span> </AnimatedText>
         

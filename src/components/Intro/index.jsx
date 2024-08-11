@@ -29,12 +29,12 @@ export default function Index() {
   return (
     <div className={styles.homeHeader}>
       <div className={styles.backgroundImage} ref={background}>
-        {/* <Image 
-                    src={'/images/background.jpeg'}
+          <Image 
+                    src={'/images/background.jpg'}
                     fill={true}
                     alt="background image"
                     priority={true}
-                /> */}
+                />
         <video autoPlay muted loop>
           <source src="/videos/background-video.mp4" type="video/mp4" />
         </video>
@@ -54,7 +54,7 @@ export default function Index() {
           />
         </div>
         <h1 data-scroll data-scroll-speed="0.7">
-          LOVE STORY BEGIN
+          about us.
         </h1>
       </div>
     </div>
