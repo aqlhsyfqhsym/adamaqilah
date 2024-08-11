@@ -1,19 +1,25 @@
 import React, { useLayoutEffect, useRef } from 'react'
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
-import styles from './style.module.css';
+ import styles from './about.module.scss';
 
-const phrases = ["Our path crossed in 2022 in Cyberjaya", "After two years of friendship,", "we decided it was time", "to tie the knot.", "Here our sharing lovely moment"]
+// const phrases = ["Our path crossed in 2022 in Cyberjaya", "After two years of friendship,", "we decided it was time", "to tie the knot.", "Here our sharing lovely moment"]
 
 export default function Index() {
 
   return (
     <div className={styles.description} >
-        {
-            phrases.map( (phrase, index) => {
-                return <AnimatedText key={index}>{phrase}</AnimatedText>
-            })
-        }
+            <AnimatedText> <span className={styles.textDeco}>Hey! </span> this is our love journey,  </AnimatedText>
+            <AnimatedText>   <span style={{ marginLeft: "50px" }}>
+              our paths crossed in 2022 at {" "}
+                <span className={styles.textDeco}>Cyberjaya </span>
+              </span> </AnimatedText>
+            <AnimatedText>And now you’re here to </AnimatedText>
+            <AnimatedText>  <span style={{ marginLeft: "50px" }}>
+                {" "}
+                witness us <span className={styles.textDeco}>tying the knot ♡</span>{" "}
+              </span> </AnimatedText>
+        
     </div>
   )
 }

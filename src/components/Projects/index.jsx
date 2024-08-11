@@ -42,7 +42,7 @@ export default function Index() {
     return (
         <div ref={container} className={styles.projects}>
             <div className={styles.projectDescription}>
-                <div ref={imageContainer} className={styles.imageContainer}>
+                {/* <div ref={imageContainer} className={styles.imageContainer}>
                     <Image 
                         src={`/images/${projects[selectedProject].src}`}
                         fill={true}
@@ -55,7 +55,7 @@ export default function Index() {
                 </div>
                 <div className={styles.column}>
                     <p>Some, like the southern viscacha, vicuña and Darwins rhea, are classified as endangered species. Others, such as Andean goose, horned coot, Andean gull, puna tinamou and the three flamingo species inhabiting in Chile (Andean flamingo, Chilean flamingo, and Jamess flamingo) are considered vulnerable.</p>
-                </div>
+                </div> */}
             </div>
 
             <div className={styles.projectList}>
