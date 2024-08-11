@@ -1,12 +1,8 @@
- import styles from "./about.module.scss";
+import styles from "./about.module.scss";
 
- 
 export default function Home() {
-   
-
   return (
     <main className={styles.main}>
-   
       <div className={styles.spacer3}>
         <div
           className={styles.contentTwo}
@@ -14,17 +10,15 @@ export default function Home() {
         >
           <div className={styles.aboutMe2}>
             <p>
-              {" "}
               <span className={styles.textDeco}>Hey! </span> I'm Aqilah, <br />
               <span style={{ marginLeft: "50px" }}>
-                a twenty-six years{" "}
+                a twenty-six years
                 <span className={styles.textDeco}>old </span>
               </span>
               <br />
               front-end developer. Currently <br />
               <span style={{ marginLeft: "50px" }}>
-                {" "}
-                based in <span className={styles.textDeco}>Shah Alam</span>{" "}
+                based in <span className={styles.textDeco}>Shah Alam</span>
               </span>
             </p>
           </div>
@@ -33,8 +27,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-     
     </main>
   );
 }
- 
