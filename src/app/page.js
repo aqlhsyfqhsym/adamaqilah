@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import styles from './page.module.css'
 import Intro from '../components/Intro';
 import Description from '../components/Description';
-import About from '../components/About';
 import Projects from '../components/Projects';
 
 export default function Home() {
