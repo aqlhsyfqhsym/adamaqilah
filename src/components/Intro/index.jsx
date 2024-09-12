@@ -35,9 +35,15 @@ export default function Index() {
                     alt="background image"
                     priority={true}
                 />
-        <video autoPlay muted loop>
+        {/* <video autoPlay muted loop>
           <source src="/videos/background-video.mp4" type="video/mp4" />
-        </video>
+        </video> */}
+         <Image 
+                    src={'/images/background-us.jpg'}
+                    fill={true}
+                    alt="background image"
+                    priority={true}
+                />
       </div>
       <div className={styles.intro}>
         <div
@@ -47,7 +53,7 @@ export default function Index() {
           className={styles.introImage}
         >
           <Image
-            src={"/images/us.jpg"}
+            src={"/images/us-1.jpg"}
             alt="intro image"
             fill={true}
             priority={true}

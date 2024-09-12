@@ -1,0 +1,112 @@
+.description {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+
+}
+
+.description p {
+  margin: 0px;
+  position: relative;
+}
+
+.textDeco {
+  font-style: italic;
+  font-family: serif;
+  font-size: 3vw;
+}
+
+.collage {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+   padding: 20px;
+}
+
+.image {
+  position: static !important;
+  width: 50% !important;
+}
+
+
+
+.paragraphCollage {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.paragraph {
+  text-align: right;
+  padding: 20px 20px 20px 230px;
+  color: white;
+  letter-spacing: 1px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.collage1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  .image {
+    text-align: center;
+  }
+
+  .paragraph {
+    text-align: center;
+    padding: 20px 330px ;
+
+  }
+}
+
+
+.collage2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding:0px 20px;
+
+  .image {
+    text-align: center;
+  }
+
+  .paragraph {
+    text-align: left;
+    padding: 20px 130px 20px 20px;
+
+
+  }
+}
+
+.collage3 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+   padding: 0px 20px;
+}
+
+
+@media screen and (max-width :768px) {
+
+  .description p {
+    font-size: 16px;
+    margin: 0px;
+    position: relative;
+  }
+
+  .textDeco {
+    font-size: 20px;
+
+  }
+}

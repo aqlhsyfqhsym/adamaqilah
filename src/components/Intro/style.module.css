@@ -17,11 +17,7 @@
     width: 100%;
     object-fit: contain;
 }
-
-.backgroundImage img{
-  display: none;
-}
-
+ 
 
 .intro{
     display: flex;

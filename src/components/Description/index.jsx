@@ -11,14 +11,13 @@ export default function Index() {
     <div className={styles.description} >
             <AnimatedText> <span className={styles.textDeco}>Hey! </span> this is our love journey,  </AnimatedText>
             <AnimatedText>   <span style={{ marginLeft: "50px" }}>
-              our paths crossed in 2022 at {" "}
-                <span className={styles.textDeco}>Cyberjaya </span>
+            Two hearts,  {" "}
+                <span className={styles.textDeco}>one love </span>
               </span> </AnimatedText>
-            <AnimatedText>And now you&rsquo;re here to </AnimatedText>
+            <AnimatedText>And now you&rsquo;re here to  </AnimatedText>
             <AnimatedText>  <span style={{ marginLeft: "50px" }}>
-                witness us <span className={styles.textDeco}>tying the knot ♡</span>{" "}
+                witness us <span className={styles.textDeco}>tie the knot ♡</span>{" "}
               </span> </AnimatedText>
-        
     </div>
   )
 }

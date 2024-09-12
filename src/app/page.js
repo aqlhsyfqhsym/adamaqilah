@@ -5,7 +5,8 @@ import Intro from '../components/Intro';
 import Description from '../components/Description';
 import Projects from '../components/Projects';
 import CountdownTimer from '../components/Timer';
-
+import Collage from '../components/Collage';
+ 
 export default function Home() {
   const targetDate = "Feb 22, 2025 09:00:00";
 
@@ -25,6 +26,8 @@ export default function Home() {
         <Description />
         </div>
         <CountdownTimer targetDate={targetDate} />
+        <Collage />
+ 
  
       </main>
   )
