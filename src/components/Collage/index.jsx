@@ -14,14 +14,14 @@ export default function Index() {
         <div className={styles.paragraphCollage}>
           <span className={styles.paragraph}>
             From the day we met and fell in love to the touching proposal, every
-            moment of our engagement has been so special. We’re excited to
+            moment of our engagement has been so special. We&rsquo;re excited to
             celebrate and begin our lives together at the ceremony!
           </span>
 
           <span className={styles.paragraph}>
             Our engagement ceremony was a beautiful highlight of our journey,
             complete with elegant makeup and a stunning hijab style. My lovely
-            bridesmaid, who’s also my best friend, was amazing in helping me get
+            bridesmaid, who&rsquo;s also my best friend, was amazing in helping me get
             ready and made the day even more special as we celebrated our love
             and commitment
           </span>
@@ -46,7 +46,7 @@ export default function Index() {
           className={styles.image}
         />
         <span className={styles.paragraph}>
-          Seeing my mom and Adam's mom finally meet at the engagement ceremony
+          Seeing my mom and Adam&rsquo;s mom finally meet at the engagement ceremony
           was truly heartwarming. Their smiles, warm hugs, and heartfelt
           conversation created a beautiful moment, symbolizing the start of a
           wonderful connection between our families as we celebrated this
