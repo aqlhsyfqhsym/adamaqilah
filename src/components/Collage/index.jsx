@@ -110,6 +110,12 @@ export default function Index() {
           making the moment both heartwarming and unforgettable
         </span>
       </div>
+
+      <div className={styles.collage1}>
+      <span className={styles.tbc}>to be continued..</span>
+      </div>
+
+
     </>
   );
 }

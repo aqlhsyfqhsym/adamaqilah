@@ -32,9 +32,7 @@
   position: static !important;
   width: 50% !important;
 }
-
-
-
+ 
 .paragraphCollage {
   display: flex;
   flex-direction: column;
@@ -86,7 +84,13 @@
 
 
   }
+
 }
+
+.tbc{
+  color : #fff !important;
+}
+
 
 .collage3 {
   position: relative;
@@ -97,16 +101,69 @@
 }
 
 
+
+
 @media screen and (max-width :768px) {
 
-  .description p {
-    font-size: 16px;
-    margin: 0px;
-    position: relative;
+ 
+
+  .description {
+    color: white;
+    height: 15vh;
+  margin-bottom: 0px;
+  justify-content: flex-end;
   }
 
-  .textDeco {
-    font-size: 20px;
+    .collage {
+     display: flex;
+    flex-direction: column;
+  
+  }
+  .paragraph {
+   text-align: center;
+    padding: 20px ;
+    color: white;
+   
+  }
+
+  .image {
+    position: static !important;
+    width: 100% !important;
+  }
+
+
+.collage1 {
+ 
+  .paragraph {
+    text-align: center;
+    padding: 20px   ;
 
   }
+}
+
+.collage2 {
+   display: flex;
+   flex-direction: column;
+
+  .image {
+    text-align: center;
+  }
+
+  .paragraph {
+    text-align: center;
+    padding: 20px ;
+
+
+  }
+}
+
+.collage3 {
+   display: flex;
+   flex-direction: column;
+  
+}
+
+
+
+
 }
