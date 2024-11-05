@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <>
       <div className={styles.description}>
-        <span className={styles.textDeco}>Enggagement Day</span>
+        <span className={styles.textDeco}>Engagement Day</span>
         <span>07 September 2024</span>
       </div>
 
@@ -80,7 +80,13 @@ export default function Index() {
           width={400}
           height={300}
           className={styles.image}
-        />
+        />  <Image
+        src="/images/collage/pic7.jpg"
+        alt="Intro image"
+        width={400}
+        height={300}
+        className={styles.image}
+      />
       </div>
 
       <div className={styles.collageRow}>
