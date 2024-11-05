@@ -1,3 +1,17 @@
+.collageRow {
+  display: flex;
+  flex-direction: row;
+  border: 16px solid #fff;
+
+}
+
+.image {
+  position: relative !important;
+  width: 100%;
+  height: auto;
+  border: 16px solid #fff;
+}
+
 .description {
   color: white;
   display: flex;
@@ -20,148 +34,41 @@
   font-size: 3vw;
 }
 
-.collage {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-   padding: 20px;
-}
-
-.image {
-  position: static !important;
-  width: 50% !important;
-}
- 
-.paragraphCollage {
-  display: flex;
-  flex-direction: column;
-}
-
-
-.paragraph {
-  text-align: right;
-  padding: 20px 20px 20px 230px;
-  color: white;
-  letter-spacing: 1px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-
-.collage1 {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-
-  .image {
-    text-align: center;
-  }
-
-  .paragraph {
-    text-align: center;
-    padding: 20px 330px ;
-
-  }
-}
-
-
-.collage2 {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding:0px 20px;
-
-  .image {
-    text-align: center;
-  }
-
-  .paragraph {
-    text-align: left;
-    padding: 20px 130px 20px 20px;
-
-
-  }
-
-}
-
-.tbc{
-  color : #fff !important;
-}
-
-
-.collage3 {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-   padding: 0px 20px;
-}
 
 
 
 
 @media screen and (max-width :768px) {
 
- 
+  .collageRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0px;
+   }
+
+  .image {
+    position: relative !important;
+    width: 90%;
+    
+  }
+  
+
 
   .description {
     color: white;
     height: 15vh;
-  margin-bottom: 0px;
-  justify-content: flex-end;
+    margin-bottom: 20px;
+    justify-content: flex-end;
   }
 
-    .collage {
-     display: flex;
-    flex-direction: column;
-  
-  }
   .paragraph {
-   text-align: center;
-    padding: 20px ;
+    text-align: center;
+    padding: 20px;
     color: white;
-   
-  }
-
-  .image {
-    position: static !important;
-    width: 100% !important;
-  }
-
-
-.collage1 {
- 
-  .paragraph {
-    text-align: center;
-    padding: 20px   ;
 
   }
-}
 
-.collage2 {
-   display: flex;
-   flex-direction: column;
-
-  .image {
-    text-align: center;
-  }
-
-  .paragraph {
-    text-align: center;
-    padding: 20px ;
-
-
-  }
-}
-
-.collage3 {
-   display: flex;
-   flex-direction: column;
-  
-}
 
 
 
