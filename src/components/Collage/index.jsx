@@ -20,7 +20,7 @@ export default function Index() {
           className={styles.image}
         />
         <Image
-          src="/images/collage/pic25.jpg"
+          src="/images/collage/pic35-1.jpg"
           alt="Intro image"
           width={400}
           height={300}
@@ -80,13 +80,7 @@ export default function Index() {
           width={400}
           height={300}
           className={styles.image}
-        />  <Image
-        src="/images/collage/pic7.jpg"
-        alt="Intro image"
-        width={400}
-        height={300}
-        className={styles.image}
-      />
+        />   
       </div>
 
       <div className={styles.collageRow}>
@@ -105,7 +99,7 @@ export default function Index() {
           className={styles.image}
         />
         <Image
-          src="/images/collage/pic17.jpg"
+          src="/images/collage/pic36.jpg"
           alt="Intro image"
           width={400}
           height={300}
@@ -169,7 +163,7 @@ export default function Index() {
           className={styles.image}
         />
         <Image
-          src="/images/collage/pic22.jpg"
+          src="/images/collage/pic26.jpg"
           alt="Intro image"
           width={400}
           height={300}
@@ -177,6 +171,76 @@ export default function Index() {
         />
         <Image
           src="/images/collage/pic24.jpg"
+          alt="Intro image"
+          width={400}
+          height={300}
+          className={styles.image}
+        />
+      </div>
+
+      <div className={styles.collageRow}>
+        <Image
+          src="/images/collage/pic27.jpg"
+          alt="Intro image"
+          width={400}
+          height={300}
+          className={styles.image}
+        />
+        <Image
+          src="/images/collage/pic31.jpg"
+          alt="Intro image"
+          width={400}
+          height={300}
+          className={styles.image}
+        />
+        <Image
+          src="/images/collage/pic28.jpg"
+          alt="Intro image"
+          width={400}
+          height={300}
+          className={styles.image}
+        />
+      </div>
+      <div className={styles.collageRow}>
+        <Image
+          src="/images/collage/pic30.jpg"
+          alt="Intro image"
+          width={400}
+          height={300}
+          className={styles.image}
+        />
+        <Image
+          src="/images/collage/pic29-1.jpg"
+          alt="Intro image"
+          width={400}
+          height={300}
+          className={styles.image}
+        />
+        <Image
+          src="/images/collage/pic17.jpg"
+          alt="Intro image"
+          width={400}
+          height={300}
+          className={styles.image}
+        />
+      </div>
+      <div className={styles.collageRow}>
+        <Image
+          src="/images/collage/pic32.jpg"
+          alt="Intro image"
+          width={400}
+          height={300}
+          className={styles.image}
+        />
+        <Image
+          src="/images/collage/pic34.jpg"
+          alt="Intro image"
+          width={400}
+          height={300}
+          className={styles.image}
+        />
+        <Image
+          src="/images/collage/pic33.jpg"
           alt="Intro image"
           width={400}
           height={300}
